@@ -1,0 +1,17 @@
+{
+  "name": "Example-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build ./src/styles.css -o ./public/tailwind.css",
+    "prod" : "NODE_ENV=production npx tailwindcss build ./src/styles.css -o ./public/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-env-run": "^4.0.2",
+    "tailwindcss": "^2.2.7"
+  }
+}
